@@ -83,7 +83,7 @@
         &bootloader     &kp (LG(N1))  &kp (LG(N2))  &kp (LG(N3)) &kp (LG(N4)) &kp (LG(N5))         &kp (LG(N6)) &kp (LG(N7))    &kp (LG(N8))   &kp (LG(N9)) &kp (LG(N0))  &bootloader
         &trans         &kp N1        &kp N2      &kp N3       &kp N4       &kp N5                     &kp N6       &kp N7          &kp N8        &kp N9       &kp N0       &bt BT_CLR
         &trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans
-                                         &trans        &trans         &none        &trans             &trans         &sys_reset        &trans         &trans
+                                         &trans        &trans         &none        &trans             &trans         &trans        &trans         &trans
             >;
         };
 
@@ -94,8 +94,8 @@
         // &sys_reset         &none         &none         &none         &none         &none              &none         &none         &none         &none         &none   &sys_reset
         //                                  &none        &trans         &none        &trans             &trans         &none        &trans         &none
 
-        &kp F1     &kp (LG(N1))  &kp (LG(N2))  &kp (LG(N3)) &kp (LG(N4)) &kp (LG(N5))         &kp (LG(N6)) &kp (LG(N7))    &kp (LG(N8))   &kp (LG(N9)) &kp (LG(N0))  &bootloader
-        &trans     &kp N1        &kp N2      &kp N3       &kp N4       &kp N5                     &kp N6       &kp N7          &kp N8        &kp N9       &kp N0       &bt BT_CLR
+        &kp F1        &kp F2        &kp F3       &kp F4       &kp F5               &kp F6       &kp F7          &kp F8         &kp F9       &kp F10       &kp F11      &kp F12
+        &bootloader     &kp N1        &kp N2      &kp N3       &kp N4       &kp N5                     &kp N6       &kp N7          &kp N8        &kp N9       &kp N0       &bt BT_CLR
         &trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans
                                          &trans        &trans         &none        &trans             &trans         &sys_reset        &trans         &trans
             >;
